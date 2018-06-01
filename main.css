@@ -21,15 +21,6 @@
   margin-top: 10px;
 }
 
-.header-pic {
-  width: 155px;
-  height: auto;
-}
-
-/* .box-menu {
-  border: 1px solid black;
-} */
-
 .menu-list {
   margin: 0px;
   padding: 0px;
@@ -52,6 +43,10 @@
   background-color: #3CDBC0;
   width: 100%;
   height: 100vh;
+}
+
+.claim-box {
+  transform: translateY(40%);
 }
 
 .claim {
