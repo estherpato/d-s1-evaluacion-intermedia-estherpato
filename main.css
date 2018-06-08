@@ -32,11 +32,17 @@
 .menu-button {
   font-size: 16px;
   font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
   text-align: center;
   display: inline-block;
   width: 100%;
-  color: #4a4a4a;
+
   margin: 10px 10px 13px 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #4a4a4a;
 }
 
 .main {
