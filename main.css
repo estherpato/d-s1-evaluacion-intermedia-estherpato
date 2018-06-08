@@ -14,6 +14,8 @@ body {
   align-items: center;
 }
 
+/* HEADER SECTION */
+
 .header {
   background-color: white;
   width: 100%;
@@ -48,6 +50,36 @@ body {
   color: #3CDBC0
 }
 
+@media all and (min-width:786px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .pic {
+    display: inline-block;
+    margin: 20px 0 20px 30px;
+  }
+
+  .menu {
+    margin: 0;
+  }
+
+  .menu-list {
+    margin-right: 30px;
+    justify-content: space-between;
+  }
+
+  .menu-button {
+    margin: 0 0 0 20px;
+    font-size: 16px;
+  }
+}
+
+
+/* MAIN SECTION */
+
 .main {
   background-color: #3CDBC0;
   width: 100%;
@@ -65,4 +97,18 @@ body {
   color: #FFFFFF;
   display: inline-block;
   text-align: center;
+}
+
+
+@media all and (min-width:786px) {
+
+  .claim-box {
+    width: 200px;
+    height: auto;
+  }
+
+  .claim {
+    font-size: 40px;
+  }
+
 }
